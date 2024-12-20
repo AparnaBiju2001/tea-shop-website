@@ -1,0 +1,92 @@
+/* Menu section styles */
+.menu {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f7f7f7;
+  }
+  
+  .menu h1 {
+    font-size: 3rem;
+    color: #892200;
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+  }
+  
+  .menu-item {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-10px); /* Hover effect for lift */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tea-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .menu-item h2 {
+    font-size: 1.8rem;
+    color: #892200;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .view-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px); /* Button hover effect */
+  }
+  
+  .view-button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-item {
+      width: 90%;
+      margin-bottom: 30px;
+    }
+  
+    .menu h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

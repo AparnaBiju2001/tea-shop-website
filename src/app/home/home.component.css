@@ -1,0 +1,127 @@
+/* Home component styles */
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/bg1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;/* Home component styles */
+    .home {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .hero {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('/assets/bg1.jpg'); /* Path to the background image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* Align content to the top */
+      text-align: center;
+      color: #e94e77;  /* Change color to a warm tea-like pink shade */
+      padding: 50px 20px;
+      box-sizing: border-box;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    }
+    
+    .content {
+      text-align: center;
+      max-width: 700px;
+      padding-top: 50px; /* Adjust padding to bring the content down from the top */
+    }
+    
+    .content h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 20px;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    }
+    
+    .content p {
+      font-size: 1.3rem;
+      color: black;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    button {
+      background-color: #ff7043;  /* Beautiful soft orange color */
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 30px; /* Rounded edges */
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    button:hover {
+      background-color: #e64a19; /* Darker shade on hover */
+      transform: translateY(-5px); /* Small lift on hover */
+    }
+    
+    button:focus {
+      outline: none;
+    }
+    
+    @media (max-width: 768px) {
+      .hero {
+        padding: 30px 20px;
+      }
+    
+      .content h1 {
+        font-size: 2.5rem;
+      }
+    
+      .content p {
+        font-size: 1.1rem;
+        
+      }
+    
+      button {
+        padding: 12px 25px;
+        font-size: 1.1rem;
+      }
+    }
+    
+    color: rgb(222, 74, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+
+  }
+  
+  content{
+
+  }
+  
